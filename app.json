@@ -3,8 +3,14 @@
     "name": "gopizzajlv",
     "slug": "gopizzajlv",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
+    "assetBundlePatterns": ["**/*"],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Esse aplicativo precisa acessar as suas fotos"
+        }
+      ]
     ]
   },
   "name": "gopizzajlv"
